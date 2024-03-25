@@ -60,4 +60,16 @@ fun whenSeeThrough() {
         else -> { "Invalid day" }
     }
     println(result)
+    /*
+    * Also we can use a variant of the while loop to do a code block first
+    * and then check the condition, and if it is still true continue to do so
+    * until we ran out of the condition statement
+    * like do {
+    *   //some code
+    * }
+    * while (condition);
+    * this will be useful on the cases that you want to do a snippet of code
+    * and then checking if the condition that you've put in is still relavant
+    * and if it is, continue to do the snippet till the condition is met
+    * */
 }
