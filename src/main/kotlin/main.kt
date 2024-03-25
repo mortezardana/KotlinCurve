@@ -45,3 +45,19 @@ fun ifElse() {
     var result = if (10 > 9) "10 is greater than 9" else "it's not"
     println("$result, if/else statements are expressions, so they can return a value as demonstrated here")
 }
+
+//This is equivalent to java's switch case statement
+fun whenSeeThrough() {
+    val day = 4
+    val result = when (day) {
+        1 -> { "Monday" }
+        2 -> { "Tuesday" }
+        3 -> { "Wednesday" }
+        4 -> { "Thursday" }
+        5 -> { "Friday" }
+        6 -> { "Saturday" }
+        7 -> { "Sunday" }
+        else -> { "Invalid day" }
+    }
+    println(result)
+}
