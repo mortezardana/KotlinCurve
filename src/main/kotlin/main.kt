@@ -71,5 +71,7 @@ fun whenSeeThrough() {
     * this will be useful on the cases that you want to do a snippet of code
     * and then checking if the condition that you've put in is still relavant
     * and if it is, continue to do the snippet till the condition is met
+    * break/continue are still the same as java, so you can use break to end the whole loop and jump out
+    * and you can use continue to just end that specific iteration that you're in.
     * */
 }
