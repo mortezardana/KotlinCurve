@@ -75,3 +75,10 @@ fun whenSeeThrough() {
     * and you can use continue to just end that specific iteration that you're in.
     * */
 }
+
+fun arrays() {
+    val cars = arrayOf("Volvo", "BMW", "Ford", "LandRover", "Toyota", "Mazda")
+    // and in case that you need an empty array you can always do it like this:
+    var arr = emptyArray<String>()
+    // the variable is defined with 'var' because I need to populate the array later and I cannot do it if it was 'val'
+}
