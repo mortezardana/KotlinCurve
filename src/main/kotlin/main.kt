@@ -39,5 +39,9 @@ fun dataTypes() {
     println("The difference between Float and double is the precision of the floating points which float have 6 or 7 precision while double has 15")
     println("Float and Double can also be a scientific number with an 'e' or 'E' to indicate power of 10")
     println("to convert a numeric data type to another type you must use toByte() or toShort() or toDouble() or any other relative built-in methods")
+}
 
+fun ifElse() {
+    var result = if (10 > 9) "10 is greater than 9" else "it's not"
+    println("$result, if/else statements are expressions, so they can return a value as demonstrated here")
 }
