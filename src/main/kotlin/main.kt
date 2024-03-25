@@ -2,6 +2,7 @@ fun main() {
     println("Hello world!")
     prints()
     variables()
+    forLoop()
 }
 
 fun prints() {
@@ -76,9 +77,20 @@ fun whenSeeThrough() {
     * */
 }
 
-fun arrays() {
+fun arrays() : Array<String> {
     val cars = arrayOf("Volvo", "BMW", "Ford", "LandRover", "Toyota", "Mazda")
     // and in case that you need an empty array you can always do it like this:
     var arr = emptyArray<String>()
-    // the variable is defined with 'var' because I need to populate the array later and I cannot do it if it was 'val'
+    // the variable is defined with 'var' because I need to populate the array later and I cannot do it if it was 'val
+    return arr
+}
+
+fun forLoop() {
+    /*
+    * the for loop is design to iterate in a list of countable number of values*/
+    var arr = arrays()
+    for (i in 1..10) {
+        arr += "$i"
+    }
+    println(arr.contentToString())
 }
